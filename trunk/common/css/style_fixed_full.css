@@ -1,0 +1,132 @@
+/* -----------------------------------------------------------
+	header
+----------------------------------------------------------- */ 
+
+#header
+{
+	margin: 0 auto;
+	padding: 10px 0 0 0;
+	background: #b0b0b0 url("../images/header_background.png") repeat;
+}
+
+/* -----------------------------------------------------------
+	header -> outer
+----------------------------------------------------------- */ 
+
+#header #header-outer
+{
+	margin: 0 auto;
+	padding: 0;
+	width: 960px;
+}
+
+/* -----------------------------------------------------------
+	content
+----------------------------------------------------------- */ 
+
+#content 
+{
+	margin: 0 auto 0px auto;
+	width: 960px;
+	background: transparent;	
+}
+
+/* -----------------------------------------------------------
+	content -> left
+----------------------------------------------------------- */ 
+
+#content #left
+{
+	left: auto;
+	/*width: 210px;*/
+	width: 470px;
+}
+
+/* -----------------------------------------------------------
+	content -> left -> menu
+----------------------------------------------------------- */ 
+
+#content #left #menu
+{
+	margin: 5px 10px 0 10px;
+}
+
+/* -----------------------------------------------------------
+	content -> left -> date picker
+----------------------------------------------------------- */ 
+
+#content #left #date-picker
+{
+	margin: 10px 10px 0 10px;
+}
+
+/* -----------------------------------------------------------
+	content -> right
+----------------------------------------------------------- */ 
+
+#content #right
+{
+	margin: 0 0 10px 220px;
+}
+
+/* -----------------------------------------------------------
+	content -> right -> forms -> labels
+----------------------------------------------------------- */
+
+#content div.box div.form div.fields div.field div.label
+{
+	left: auto;
+}
+
+#content div.box div.form div.fields div.email-field div.label
+{
+	left: auto;
+}
+
+/* -----------------------------------------------------------
+	content -> right -> forms -> input
+----------------------------------------------------------- */
+
+#content div.box div.form div.fields div.field div.input input.small
+{
+	width: 180px;	
+}
+
+#content div.box div.form div.fields div.field div.input input.medium
+{
+	width: 300px;	
+}
+
+#content div.box div.form div.fields div.field div.input input.large
+{
+	width: 484px;	
+}
+
+/* -----------------------------------------------------------
+	content -> right -> tables
+----------------------------------------------------------- */
+
+#content div.box table td.selected
+{
+    width: 4%;
+}
+
+#content div.box table td.date
+{
+	width: 31%;
+}
+
+/* -----------------------------------------------------------
+	footer
+----------------------------------------------------------- */
+
+#footer
+{
+    margin: 0 auto;
+    width: 960px;
+}
+
+#footer p
+{
+    margin: 0 10px 0 10px;
+}

@@ -1,0 +1,1 @@
+ALTER TABLE `employees` CHANGE `self-introduction` `self-introduction` VARCHAR( 500 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL ,CHANGE `created` `created` DATETIME NULL DEFAULT NULL;

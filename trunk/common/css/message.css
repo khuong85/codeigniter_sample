@@ -1,0 +1,40 @@
+.negative
+{
+	color: #AE2727;
+	margin-top: 10px;
+}
+.negative-top
+{
+	color: #AE2727;
+	text-align: center;
+	margin: 0 0 15px 0;
+}
+
+.positive-top
+{
+	color: green;
+	text-align: center;
+	margin: 0 0 15px 0;
+}
+
+.negative-top-success
+{
+	color: green;
+	text-align: center;
+	margin: 0 0 15px 0;
+	font-size: 14px;
+}
+.update-top-error
+{
+	color: #AE2727;
+	text-align: center;
+	margin: 0 0 15px 0;
+	font-size: 14px;
+}
+.update-success
+{
+	color: #AE2727;
+	font-size: 16px;
+	text-align: center;
+	padding-left: 5px;
+}

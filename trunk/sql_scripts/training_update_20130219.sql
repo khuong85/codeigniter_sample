@@ -1,0 +1,1 @@
+ALTER TABLE `employees` CHANGE `role` `role` TINYINT( 1 ) UNSIGNED NOT NULL DEFAULT '0' COMMENT '2:super admin,1:admin,0:normal user';
